@@ -1,3 +1,3 @@
-export default function getStudentsByLocation(list, city){
-    return list.filter((mem)=> mem.location == city);
+export default function getStudentsByLocation(list, city) {
+  return list.filter((obj) => obj.location === city);
 }
